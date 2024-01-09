@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&family=Poppins:wght@100;300;400;500;700;900&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+
+}
+footer{
+    background-color: #594A26;
+    color: rgb(231, 211, 211);
+}
+header{
+    background-color: #594A26;
+    padding: 30px;
+}
+section{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.main-1{
+    background-image: url(images/bg3.svg) ;
+    min-height: 75vh;
+}
+.main-2{
+    background-image: url(images/bg2.svg);
+}
+
+.main-1 h1{
+    color: #ffefa8;
+}
+.main-2 h1{
+    margin-top: 20px;
+    height: 50px;
+    padding: 0;
+    color: #695a16;
+
+}
+.main-2 .imej{
+    transition: all 0.3s ease-in-out;
+    background-color: rgb(126, 95, 60);
+}
+.main-2 .imej:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.main-1 .row, .main-2 .row{
+    height: 60vh;
+}
+.row h5{
+    color:rgba(255, 255, 255, 0.507);
+}
+.row button{
+    background-color: #796343;
+    transition: all 0.2s linear;
+    font-weight: 600;
+    padding: 15px;
+}
+.row button:hover{
+    transform: translateY(-5px);
+    background-color: #c09047;
+
+}
+.row a{
+    color: white;
+    font-weight: 300;
+}
+#navbarNav button{
+    background-color:#796343 ;
+}
